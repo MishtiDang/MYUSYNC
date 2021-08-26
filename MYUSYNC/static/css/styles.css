@@ -1,0 +1,411 @@
+/* Things common to all pages */
+body {
+
+  background-image: url("border.png");
+  background-repeat: repeat-y;
+}
+
+.navbar{
+    margin-top: 3px;
+    background-color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar-custom .navbar-brand {
+  color:#136F63 !important;
+}
+.nav-link{
+  color: #230C33 !important;
+}
+
+.logo{
+    width: 46px;
+    height: 46px;
+    margin-right: 1em;
+}
+
+footer {
+  margin-top: 2em;
+  background-color: lightgrey;
+  text-align: center;
+  vertical-align: auto;
+  padding: 10px;
+  font-family: 'PT Serif', serif;
+}
+
+.footer ul li{
+  color:rgb(207, 140, 140);
+  list-style: none;
+}
+
+/* Home */
+
+#slideshow {
+  overflow: hidden;
+  height: 680px;
+  width: 1350px;
+  margin: 0 auto;
+}
+
+/* Style each of the sides
+with a fixed width and height */
+.slide {
+  float: left;
+  height: 680px;
+  width: 1450px;
+}
+
+/* Add animation to the slides */
+.slide-wrapper {
+  /* Calculate the total width on the basis of number of slides */
+  width: calc(1450px * 4);
+
+  /* Specify the animation with the duration and speed */
+  animation: slide 10s ease infinite;
+}
+
+/* Set the background color of each of the slides */
+.slide:nth-child(1) {
+  background: black;
+}
+
+.slide:nth-child(2) {
+  background: black;
+}
+
+.slide:nth-child(3) {
+  background: black;
+}
+
+.slide:nth-child(4) {
+  background: black;
+}
+
+/* Define the animation for the slideshow */
+@keyframes slide {
+  /* Calculate the margin-left for each of the slides */
+  20% {
+    margin-left: 0px;
+  }
+
+  40% {
+    margin-left: calc(-1450px * 1);
+  }
+
+  60% {
+    margin-left: calc(-1450px * 2);
+  }
+
+  80% {
+    margin-left: calc(-1450px * 3);
+  }
+}
+/* -------------------------------------- */
+
+/* About Us */
+
+.about-jumbotron{
+  background-color: #19647E;
+  margin-top: 0.5em;
+  padding: 5em;
+
+}
+.about-jumb-head {
+  font-size: 50px;
+  text-align: center;
+  color: #EEF8FC;
+  font-family: 'Exo', sans-serif;
+}
+
+.about-content{
+  background-color: white;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-top: 2em;
+  align-content: center;
+  text-align: justify;
+}
+.content-head {
+  text-align: center;
+  font-family: 'Playball', cursive;
+  color: rgba(255, 0, 0, 0.589);
+  font: outline;
+  outline: 2em;
+}
+
+.content-intro{
+  font-family: 'Raleway', sans-serif;
+  max-width: 650px;
+  min-width: 300px;
+  margin: 50px auto;
+}
+.center {
+  text-align: center;
+}
+.content-sub{
+  background-image: url("assets/images/content.jpeg");
+  background-position: center;
+}
+
+.content-sub-image{
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.content-sub-head{
+  text-align: center;
+}
+.content-para{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* -------------------------------------- */
+
+/* Our Team */
+
+.ourTeam-jumbotron{
+  background-color: #233343;
+  margin-top: 0.5em;
+  padding: 3em;
+}
+.ourTeam-jumb-head{
+  font-size: 50px;
+  text-align: center;
+  color:#E4EBF1;
+  font-family: 'Exo', sans-serif;
+}
+#team {
+    background: #fff;
+    padding: 60px 0;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1)
+}
+
+.section-header h3 {
+    font-size: 36px;
+    color: #283d50;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+}
+
+.section-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 15px;
+    padding-bottom: 60px;
+    color: #556877;
+    width: 50%;
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+#team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#team .member .member-info {
+    opacity: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#team .member .member-info-content {
+    transition: margin 0.2s;
+    vertical-align: middle;
+}
+
+#team .member:hover .member-info {
+    background: rgba(0, 62, 128, 0.7);
+    opacity: 1;
+    transition: 0.4s
+}
+
+#team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* -------------------------------------- */
+
+/* Login */
+.login-img{
+  width: 300px;
+  height: auto;
+  float: right;
+}
+
+.login-jumbotron{
+  background-color: #6F1F2F;
+  margin-top: 0.5em;
+  padding: 3em;
+  margin: auto;
+}
+
+.login-jumb-head {
+  font-size: 50px;
+  text-align: center;
+  color:#FEF2EB;
+  font-family: 'Exo', sans-serif;
+}
+
+.login-main{
+  margin-top: 3em;
+}
+
+.login-table-desktop {
+  margin-top: 2.5em;
+}
+
+.form-submit, #ShowUserChoice button {
+  background-color: transparent;
+  color: black;
+  margin-top: 5px;
+  border-style: dotted;
+}
+.signup {
+  background-color: transparent;
+  color: black;
+  padding: 2px;
+  border: none;
+  color: blue;
+}
+
+.search-redirect{
+  color: red;
+}
+a:hover{
+  text-decoration: none;
+  color: red;
+}
+
+/* -------------------------------------- */
+/*sign-up musician*/
+
+.signup-head{
+  margin-top: 1.75em;
+}
+
+#signup-det{
+
+  margin-left: 6em;
+  float: left;
+}
+
+#signup-det1 {
+  margin: 5px 0px 0px 6em;
+}
+
+.top-space{
+  margin-top: 2em;
+  text-align: left;
+}
+.signup-main{
+  background-color: #F7F3F3;
+  width:300px;
+  margin: 50px auto;
+
+}
+#musician-register-button {
+  background-color: transparent;
+  color: black;
+  margin-top: 5px;
+  border-style: dotted;
+}
+
+.register-button-div {
+  margin-top: 2.5em;
+  text-align: center;
+}
+.M-signup-jumbotron{
+  background-color:#0A0C1F;
+  margin-top: 0.5em;
+  padding: 3em;
+  margin: auto;
+}
+
+.M-signup-jumb-head {
+  font-size: 50px;
+  text-align: center;
+  color: #E5DADA;
+  font-family: 'Exo', sans-serif;
+}
+/* ------------------ */
+/* Feedback */
+
+.feed-jumbotron{
+  background-color: #E79DB4;
+  margin-top: 0.5em;
+  padding: 3em;
+
+}
+.feed-jumb-head {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  font-family: 'Exo', sans-serif;
+}
+
+form{
+  border: black;
+  text-align: center;
+  margin-top: 3em;
+  align-content: center;
+}
+
+#feed-name, #feed-email, .comments-text{
+  border-left: none;
+  border-right: none;
+  margin-bottom: 1em;
+  padding: -2px;
+  position: relative;
+}
+
+.form>label {
+  color: black;
+}
+.form .comments-text{
+  color: green;
+}
+
+.form .form-submit{
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+/* -------------------------------------- */
+
+
+/* signup-non-musician */
+.NM-signup-jumbotron{
+  background-color: #0A0C1F;
+  margin-top: 0.5em;
+  padding: 3em;
+  margin: auto;
+}
+
+.NM-signup-jumb-head {
+  font-size: 50px;
+  text-align: center;
+  color: #E5DADA;
+  font-family: 'Exo', sans-serif;
+}
+/* ------------------ */

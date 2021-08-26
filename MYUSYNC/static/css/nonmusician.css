@@ -1,0 +1,170 @@
+/*  Profile Nav-Bar */
+
+.profile-nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-width: 20%;
+  min-width: 15%;
+  background-color: #F5F5F5;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  text-align: center;
+}
+
+.profile-nav-bar li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+
+
+.logo{
+    width: 46px;
+    height: 46px;
+    margin-right: 1em;
+}
+.logo-and-name{
+  margin: 0.5em 0em;
+}
+.logo-name{
+  padding-left: 0.5em;
+  font-family:'Roboto Slab',serif;
+}
+footer {
+  background-color: lightgrey;
+  text-align: center;
+  vertical-align: auto;
+  padding: 10px;
+  font-family: 'PT Serif', serif;
+  margin-left: 8%;
+}
+.footer-profile{
+  width:100%;
+}
+.footer ul li{
+  color:rgb(207, 140, 140);
+  list-style: none;
+}
+/* Edit profile - musician*/
+.edit-head{
+  margin-top: 1.75em;
+}
+
+#edit-det{
+
+  margin-left: 6em;
+  float: left;
+}
+
+#edit-det1 {
+  margin: 5px 0px 0px 6em;
+}
+
+.edit-profile-main{
+  background-color: #F4F6F6;
+  width:300px;
+  margin: 50px 475px;
+
+}
+#edit-button {
+  background-color: transparent;
+  color: black;
+  margin-top: 5px;
+  border-style: dotted;
+
+}
+
+.edit-button-div {
+  margin-top: 2.5em;
+  text-align: center;
+}
+.NM-edit-profile-jumbotron{
+  background-color: #2B3B39;
+  margin-top: 0.5em;
+  padding: 3em;
+  margin: auto;
+  width: 720px;
+  margin: 0px 475px;
+}
+
+.NM-edit-profile-jumb-head {
+  font-size: 50px;
+  text-align: center;
+  color:#E8EDEC;
+  font-family: 'Exo', sans-serif;
+}
+/* ----------- */
+/*Non-Musician_Profile*/
+.profile-page .page-header {
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.img-raised {
+    box-shadow: 0 5px 15px -8px rgba(0,0,0,.24), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    min-height: 32px;
+    color: #3C4858;
+    font-weight: 700;
+    font-family: "Roboto Slab","Times New Roman",serif;
+}
+
+.main-raised {
+    margin: -60px 30px 0;
+    border-radius: 6px;
+    box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+    padding-bottom: 3.5em;
+}
+
+.main {
+    background: #FFF;
+    position: relative;
+}
+
+.profile-page .page-header {
+    height: 380px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.profile-page .profile {
+    text-align: center;
+}
+
+.profile-page .profile img {
+    max-width: 160px;
+    width: 100%;
+    margin: 0 auto;
+    transform: translate3d(0,-50%,0);
+}
+
+.profile-page .description {
+    margin: 1.071rem auto 0;
+    max-width: 600px;
+    color: #999;
+    font-weight: 300;
+}
+
+.profile-page .profile .name{
+    margin-top: -80px;
+}
+/* ---------- */
+
+.choice-head {
+  text-align: left;
+  font-family: "Roboto Slab","Times New Roman",serif;
+  color: black;
+}
